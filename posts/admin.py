@@ -8,4 +8,4 @@ class PostAdmin(admin.ModelAdmin):
     search_fields = ('title',)
 
 
-admin.site.regsiter(Post, PostAdmin)
+admin.site.register(Post, PostAdmin)
