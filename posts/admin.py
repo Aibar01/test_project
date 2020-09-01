@@ -7,3 +7,5 @@ class PostAdmin(admin.ModelAdmin):
     list_display_links = ('id', 'title')
     search_fields = ('title',)
 
+
+admin.site.regsiter(Post, PostAdmin)
