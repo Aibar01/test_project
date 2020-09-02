@@ -14,7 +14,7 @@ SECRET_KEY = '0agel@j1k#vv6t9)h&q8%pvwzg@*dixjk^5r-)^2pfzxpk1^$5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-test-posts-app.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['django-test-posts-app.herokuapp.com', '   127.0.0.1']
 
 
 # Application definition
@@ -133,8 +133,8 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny'
     ]
 }
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000"
-]
+CORS_ALLOW_ALL_ORIGINS = True
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:3000",
+#     "http://127.0.0.1:3000"
+# ]
