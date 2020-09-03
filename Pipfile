@@ -12,6 +12,7 @@ django-cors-headers = "*"
 pillow = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.8"
